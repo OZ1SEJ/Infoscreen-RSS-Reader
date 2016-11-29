@@ -1,0 +1,147 @@
+html
+{
+	margin:				0;
+	padding:			0;
+}
+body
+{
+	background-image:	url('bg.png');
+	background-repeat:	no-repeat;
+	font-family:		helvetica,arial,sans-serif;
+	font-family:		arial,sans-serif;
+	font-size:			30px;
+	margin:				0;
+	overflow:			hidden;
+	padding:			0;
+}
+h1
+{
+	font-family:		'Source Sans Pro', helvetica, arial, sans-serif;
+	font-family:		arial, sans-serif;
+	text-transform:		uppercase;
+	font-weight:		normal;
+	font-size:			2em;
+	margin:				0 0 10px 0;
+	padding:			0;
+}
+h2
+{
+	font-size:			1.4em;
+}
+p
+{
+	margin:				0 0 10px 0;
+}
+table
+{
+	border-collapse: 	collapse;
+	font-size:			0.6em;
+}
+table.idag
+{
+	xfont-size:			0.8em;
+	margin:				0 0 10px 0;
+	width:				570px;
+}
+table.idag th
+{
+	border-bottom:		1px solid black;
+}
+table.idag th,
+table.idag td
+{
+	padding:			10px;
+}
+table.idag th:first-child,
+table.idag td:first-child
+{
+	text-align: 		left;
+}
+table.idag th:last-child,
+table.idag td:last-child
+{
+	text-align: 		right;
+	white-space: 		nowrap;
+}
+table.idag tr:nth-child(odd) td
+{
+	background-color: #eee;
+}
+table.program th
+{
+	padding-right:		20px;
+}
+table.program th,
+table.program td
+{
+	height:				25px;
+	padding:			6px;
+	vertical-align: 	top;
+}
+div#footer
+{
+	height:				45px;
+	left:				0;
+	position:			absolute;
+	top:				723px;
+	width:				1360px;
+}
+div#ur
+{
+	background-color:	#0080FF;
+	color:				white;
+	display:			none;
+	float:				right;
+	height:				36px;
+	opacity:			1;
+	padding:			6px 10px 3px 10px;
+	text-align: 		center;
+	z-index: 			100;
+}
+div#marquee
+{
+	background-color:	#000;
+	color:				#FFF;
+	display:			none;
+	font-size:			1em;
+	height:				40px;
+	opacity:			0.6;
+	width:				1222px;
+	padding-top: 		5px;
+}
+div#breaking
+{
+	background-color: 	yellow;
+	color:				black;
+	display:			none;
+	float:				left;
+	padding:			5px 16px 3px 16px;
+	opacity:			1;
+	z-index: 			100;
+}
+div#footer.clock div#ur,
+div#footer.marquee div#ur,
+div#footer.breaking div#ur
+{
+	display:			block;
+}
+div#footer.marquee div#marquee,
+div#footer.breaking div#marquee
+{
+	display:			block;
+}
+div#footer.breaking div#marquee
+{
+	background-color:	white;
+	color:				black;
+	opacity:			1;
+}
+div.breaking div#breaking
+{
+	display:			block;
+}
+h3
+{
+	color:	#CCC;
+	font: 0.8em arial;
+}
